@@ -117,11 +117,11 @@ create a new file in `/controllers` called: `sample.js`
 3. Adding a route:
 open the file `/config/routes.js`.
 ```
-  // We import the porkchop controller
+  // First, import the sample controller
   const sample = require('../controllers/sample')
   
-  // let's create the route for porkchop
-  // we say here that when user go to localhost:3000/sample
+  // let's create the route for sample
+  // we declare here that when user go to localhost:3000/sample
   // the router will call the file /controllers/sample.js
   // and run the index action
   router.get('/sample', sample.index)
@@ -132,6 +132,16 @@ open the file `/config/routes.js`.
 
 * [NodeJS](https://nodejs.org/en/) - Our backend is 100% Javascript
 * [Express](https://expressjs.com/) - We use this for the server & routing.
+
+## What's next
+1. I'm still continuing to add an ORM for the model to be a fully-pedged web framwework.
+2. Add babel so we can use ES6.
+3. Add more methods such as `resource()`, `root()` for easier life.
+4. Add favicon icon & enhance layout for public views.
+5. Add **ejs** instead of **pug** so we code in familiar `<html>`
+6. A lot more!
+
+
 
 ## Authors
 
