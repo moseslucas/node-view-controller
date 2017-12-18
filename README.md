@@ -136,10 +136,11 @@ open the file `/config/routes.js`.
 ## What's next
 1. I'm still continuing to add an ORM for the model to be a fully-pedged web framwework.
 2. Add babel so we can use ES6.
-3. Add more methods such as `resource()`, `root()` for easier life.
+3. Add more methods such as `resource()`, `root()` & etc. for easier life.
 4. Add favicon icon & enhance layout for public views.
-5. Add **ejs** instead of **pug** so we code in familiar `<html>`
-6. A lot more!
+5. We use **ejs** for default templating engine instead of **pug** so we code in more familiar `<html>`
+6. Add a powerful authentication using [passport.js](http://www.passportjs.org/). For local authentication & others like *(using facebook, linkedin, etc to sign-in)*
+7. A lot more!
 
 
 
